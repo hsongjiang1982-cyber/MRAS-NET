@@ -1,0 +1,47 @@
+# Ignore generated and non-essential directories
+outputs/
+picture/
+logs/
+doc/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.$py.class
+
+# Virtual environments and environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Build, distribution and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, coverage, and reports
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Binary/model/data artifacts
+*.pth
+*.h5
+*.zip
+*.tar
+*.tar.gz
+
+# Log files
+*.log
